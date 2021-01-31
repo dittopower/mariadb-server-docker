@@ -102,7 +102,6 @@ RUN set -ex; \
 	apt-get update; \
 	apt-get install -y \
 		"mariadb-server" \
-		$backupPackage \
 		socat \
 	; \
 	rm -rf /var/lib/apt/lists/*; \
